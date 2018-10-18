@@ -5,8 +5,10 @@ $(document).ready(function() {
 
     if (age >=18) {
       $("#oldEnough").show();
+      $("#tooYoung").hide();
     } else {
       $("#tooYoung").show();
+      $("#oldEnough").hide();
     }
 
 
